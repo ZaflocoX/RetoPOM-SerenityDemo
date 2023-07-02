@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a559062d-f2b1-4919-8b37-0b5845592907" name="Changes" comment="" />
+    <list default="true" id="a559062d-f2b1-4919-8b37-0b5845592907" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is/demo/serenity/pageObject/OrdenPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/demo/serenity/pageObject/OrdenPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is/demo/serenity/steps/OrdenSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/demo/serenity/steps/OrdenSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/608d2a3b81c1e3fbf75a62b5f83d649942aa8c9220f1fb2f82ff5f50dd00f7d5.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/608d2a3b81c1e3fbf75a62b5f83d649942aa8c9220f1fb2f82ff5f50dd00f7d5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/608d2a3b81c1e3fbf75a62b5f83d649942aa8c9220f1fb2f82ff5f50dd00f7d5.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/608d2a3b81c1e3fbf75a62b5f83d649942aa8c9220f1fb2f82ff5f50dd00f7d5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/608d2a3b81c1e3fbf75a62b5f83d649942aa8c9220f1fb2f82ff5f50dd00f7d5_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/608d2a3b81c1e3fbf75a62b5f83d649942aa8c9220f1fb2f82ff5f50dd00f7d5_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-608d2a3b81c1e3fbf75a62b5f83d649942aa8c9220f1fb2f82ff5f50dd00f7d5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-608d2a3b81c1e3fbf75a62b5f83d649942aa8c9220f1fb2f82ff5f50dd00f7d5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +25,13 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -24,12 +41,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Semillero SQA/PROYECTOS/proyectoEjemploSerenityBDD/ejerciciopactico2SQA&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Semillero SQA\PROYECTOS\RetoFinalPOM\src\test\resources\drivers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Semillero SQA\PROYECTOS\RetoFinalPOM\src\test\resources\data" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CnombreOrdenRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;is.demo.serenity.runner.CnombreOrdenRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.CnombreOrdenRunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

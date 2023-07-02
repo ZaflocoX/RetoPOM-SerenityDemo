@@ -28,8 +28,7 @@ public class OrdenSteps {
 
     @Step("Seleccion aleatoria de orden")
     public void seleccionarOrdenAleatoria(){
-        List<WebElement> buscaOrden = ordenPage.getDriver().findElements(ordenPage.getBtnSeleccionarOrden());
-        buscaOrden.get(SeleccionOrden.numeroAleatorioEnRango(0,buscaOrden.size())).click();
+        ordenPage.getDriver().findElement(ordenPage.getTbSeleccionarOrden()).click();
 
     }
 
@@ -44,19 +43,9 @@ public class OrdenSteps {
     public void guardarCambiosOrden(){
 
         ordenPage.getDriver().findElement(ordenPage.getBtnAplicarCambios()).click();
-        /*
+
         Assert.assertTrue(
-                ordenPage.getDriver().findElement(ordenPage.getAlertaCambios()).isDisplayed(),Matchers.is(true)
-
+                ordenPage.getDriver().findElement(ordenPage.getAlertaCambios()).isDisplayed()
         );
-
-
-        /*
-        Assert.assertThat(
-                ordenPage.getDriver().findElement(ordenPage.getAlertaCambios()).isDisplayed(),Matchers.is(true)
-
-            );
-
-         */
     }
 }

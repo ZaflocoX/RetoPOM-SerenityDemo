@@ -6,7 +6,8 @@ import org.openqa.selenium.By;
 
 public class OrdenPage extends PageObject {
     By txtValidacionOrden = By.xpath("//*[@class='slick-pg-stat']");
-    By btnSeleccionarOrden = By.xpath("//a[contains(@class,\"s-EditLink s-Demo-Northwind-OrderLink\")]");
+
+    By tbSeleccionarOrden = By.xpath("//*[@data-item-id='11075']");
 
     By dropEmpleados = By.xpath("//div[@id='s2id_Serenity_Demo_Northwind_OrderDialog15_EmployeeID']");
 
@@ -18,8 +19,8 @@ public class OrdenPage extends PageObject {
         return txtValidacionOrden;
     }
 
-    public By getBtnSeleccionarOrden() {
-        return btnSeleccionarOrden;
+    public By getTbSeleccionarOrden() {
+        return tbSeleccionarOrden;
     }
 
     public By getDropEmpleados() {
